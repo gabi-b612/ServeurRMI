@@ -1,4 +1,4 @@
-package org.localchat.serverrmi.dao;
+package dao;
 
 import java.io.Serializable;
 

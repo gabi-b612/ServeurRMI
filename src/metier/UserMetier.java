@@ -1,11 +1,10 @@
-package org.localchat.serverrmi.metier;
+package metier;
 
-import org.localchat.serverrmi.dao.Message;
-import org.localchat.serverrmi.dao.MessageModel;
-import org.localchat.serverrmi.dao.User;
-import org.localchat.serverrmi.dao.UserModel;
 
-import java.sql.SQLException;
+import dao.Message;
+import dao.MessageModel;
+import dao.User;
+import dao.UserModel;
 
 public class UserMetier {
 

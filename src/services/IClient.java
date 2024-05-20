@@ -1,6 +1,8 @@
-package org.localchat.serverrmi.services;
+package services;
 
-import org.localchat.serverrmi.dao.Message;
+
+
+import dao.Message;
 
 import java.rmi.Remote;
 

@@ -1,13 +1,13 @@
-package org.localchat.serverrmi.services;
+package services;
 
-import org.localchat.serverrmi.dao.Message;
-import org.localchat.serverrmi.dao.User;
-import org.localchat.serverrmi.metier.UserMetier;
+
+
+import dao.Message;
+import dao.User;
+import metier.UserMetier;
 
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
-import java.util.ArrayList;
-import java.util.List;
 
 public class ChatServices extends UnicastRemoteObject implements IChatService {
 
@@ -16,7 +16,7 @@ public class ChatServices extends UnicastRemoteObject implements IChatService {
     }
 
     public User inscription(User user) throws Exception {
-        return new  UserMetier().addUser(user);
+        return new UserMetier().addUser(user);
     }
 
     public User seConnecter(User user) throws Exception {
